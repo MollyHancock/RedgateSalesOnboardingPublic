@@ -1,0 +1,16 @@
+console.log("Welcome to FizzBuzz!")
+console.log("Enter a number!")
+
+function FizzBuzz(n){
+  
+  if (n % 5 == 0 && n % 3 == 0){
+    console.log("FizzBuzz")}
+  else if (n % 5 == 0){
+   console.log("Buzz")}
+  else if (n % 3 == 0){
+   console.log("Fizz")}
+   else console.log(n)}   
+
+for (let n = 0; n < 101; n++) {
+  FizzBuzz(n);
+} 
